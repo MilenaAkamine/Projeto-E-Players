@@ -304,12 +304,12 @@
         <div class="container">
 
             <nav> 
+                <h3>Páginas</h3>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="Cadastro.html">Cadastre-se</a></li>
                     <li><a href="#">Campeonatos</a></li>
-                    <li><a href="#">Política de Privacidade
-                    </a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
                     <li><a href="#">Fale Conosco</a></li>
                    
                    
@@ -321,10 +321,10 @@
             <div>
                 <img src="img/Logo.svg" alt="Lodo do projeto E-players">
                 <div class="sociais">
-                    <i class="fab fa-facebook-square">[</i>   
-                    <i class="fab fa-instagram-square">[</i>   
-                    <i class="fab fa-twitter-square">[</i>   
-                    <i class="fab fa-youtube-square">[</i>   
+                    <i class="fab fa-facebook"></i>   
+                    <i class="fab fa-instagram"></i>   
+                    <i class="fab fa-twitter"></i>   
+                    <i class="fab fa-youtube""></i>   
                      
                 </div>
 
@@ -337,11 +337,14 @@
             <Method +"Get" [Usado em pesquisas/buscas]>
                < Method = "Post"> [As infomações passam pelo protocólo de segurança, para não aparecer o login e senha, por exemplo.]
         -->
-            <form action="#">
+            <form action="" method="get">
                 <label for="email">Entre para a lista vip</label> 
-                <input type="email" id="email" name="email_usuario">
+                <div>
 
-                <button type="submit">ENVIAR</button> 
+                    <input type="email" id="email" name="email_usuario">
+                    
+                    <button type="submit" class="gradient btn">ENVIAR</button> 
+                </div>
                 <!-- Resect [Ele apaga todo o formulário]
                 submit [realiza a ação] -->
                 <!-- Uma Label é algo para a acessibilidade -->
@@ -349,9 +352,14 @@
 
         </div> <!-- Fim container -->
 
-
+<p> &copy; COPYRIGHT - Todos os direitos reervados - SENAI DE INFORMÁTICA  E-Sports  </p>
 
     </footer>
+
+
+
+
+
 </body>
 
 </html>
